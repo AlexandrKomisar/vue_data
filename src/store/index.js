@@ -5,18 +5,20 @@ export default createStore({
     water: [
       {
         year: '2023',
-        jan: '',
-        feb: '',
-        mar: '',
-        apr: '',
-        may: '',
-        jun: '',
-        jul: '',
-        aug: '',
-        sep: '',
-        oct: '',
-        nov: '',
-        dec: ''
+        months: {
+          jan: '00333',
+          feb: '00343',
+          mar: '00357',
+          apr: '',
+          may: '',
+          jul: '',
+          aug: '',
+          sep: '',
+          oct: '',
+          nov: '',
+          dec: '',
+          jun: ''
+        }
       }
     ]
   },

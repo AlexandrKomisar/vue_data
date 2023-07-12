@@ -1,12 +1,17 @@
 <template>
     <div class="water">
         <h3>water</h3>
+        <p>{{$store.state.water}}</p>
     </div>
 </template>
 
 <script>
 export default {
   name: 'WaterIndicators',
+  // data(){
+  //   return{
+  //   }
+  // },
   props: {
     msg: String
   }
